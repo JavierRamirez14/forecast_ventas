@@ -16,7 +16,7 @@ En este repositorio, encontrarás los siguientes archivos:
 
 - Codigo_Desarrollo: Archivo `.ipynb` que contiene el código de todo el desarrollo de los modelos, incluyendo la limpieza de datos, la creacion, transformación y preselección de variables y las predicciones que se envían a Kaggle para ser calificadas.
 
-- Codigo_Produccion: Archivo `.ipynb` que contiene el código de puesta en producción, es decir, es el código que se usa a la hora de predecir, mucho mas comprimido y eficaz.
+- Codigo_Produccion: Archivo `.ipynb` que contiene el código de puesta en producción, es decir, es el código que se usa a la hora de predecir, mucho mas comprimido y eficaz. Este archivo también contiene la creación del dataset utilizado en la app.
 
 - App_forecast: Archivo '.py' que desarrolla una aplicación en streamlit donde un usuario puede hacer las predicciones. Al app no se puede subir a streamlit debido al gran peso de los modelos. Sin embargo, mas adelante mostrare imagenes de su funcionamiento.
 
