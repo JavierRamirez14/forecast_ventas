@@ -33,5 +33,5 @@ En este repositorio, encontrarás los siguientes archivos:
 
 ## Aplicación
 
-![Captura App](Captura_app.png)
+![Captura App](Captura_app.PNG)
 
