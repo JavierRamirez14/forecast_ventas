@@ -1,4 +1,4 @@
-# Store Sales Time Series Forecasting
+# Forecast de Ventas
 
 Este proyecto se basa en la competición [Store Sales Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview) de Kaggle, que desafía a los participantes a predecir las ventas futuras de tiendas minoristas en función de datos históricos. El objetivo es desarrollar modelos de series temporales precisos que puedan proporcionar predicciones útiles para la gestión de inventario y la planificación de recursos.
 
