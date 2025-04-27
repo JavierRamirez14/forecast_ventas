@@ -12,6 +12,13 @@ Desarrollar un sistema de forecasting para predecir ventas de **33 familias de p
 - **Evitar la pérdida de ventas:** Al prever con precisión la demanda futura, las empresas pueden asegurarse de tener suficiente inventario disponible para satisfacer la demanda del mercado, evitando así la pérdida de ventas debido a productos agotados.
 - **Toma de decisiones basada en datos:** Permite tomar decisiones estratégicas fundamentadas en análisis cuantitativos, en lugar de intuiciones subjetivas.
 
+## Herramientas
+- Python
+- Pandas
+- Scikit-Learn
+- Matplotlib, Seaborn
+- Optuna
+
 ## Estructura del Proyecto
 - **Notebook_desarrollo:** Archivo `.ipynb` que contiene desde la extracción de datos hasta la transformación y preselección de variables. Contiene también las explicaciones de cada paso tomado.
 - **Notebook_ejecución:** Archivo `.ipynb` que contiene la modelización e hiperparametrización de los modelos, así como, el entrenamiento de cada uno de ellos, sus predicciones y la evaluación de los modelos. Está diseñado específicamente para el entrenamiento y ejecución eficiente de modelos y la generación rápida de predicciones. Proporciona un código más compacto y orientado a la aplicación práctica. 
