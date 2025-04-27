@@ -1,11 +1,11 @@
 # Forecasting de Ventas
 **Modelo LightGBM para predecir ventas en 54 tiendas (Top 15% en Kaggle)**  
-[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Competition-blue)](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/)
+[Dataset de Kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/)
 
 ---
 
 ## Objetivo
-Desarrollar un sistema de forecasting para predecir ventas de **33 familias de productos** en **54 tiendas** de Ecuador, utilizando datos históricos (2013-2017) de la competencia Kaggle *"Store Sales - Time Series Forecasting"*.
+Desarrollar un sistema de forecasting para predecir ventas de **33 familias de productos** en **54 tiendas** de Ecuador, utilizando datos históricos (2013-2017) de la competencia de Kaggle *"Store Sales - Time Series Forecasting"*.
 
 ---
 
@@ -16,10 +16,15 @@ Desarrollar un sistema de forecasting para predecir ventas de **33 familias de p
 - **Evitar la pérdida de ventas:** Al prever con precisión la demanda futura, las empresas pueden asegurarse de tener suficiente inventario disponible para satisfacer la demanda del mercado, evitando así la pérdida de ventas debido a productos agotados.
 - **Toma de decisiones basada en datos:** Permite tomar decisiones estratégicas fundamentadas en análisis cuantitativos, en lugar de intuiciones subjetivas.
 
+---
+
+## Estructura del Proyecto
+- **Notebook_desarrollo:** Archivo `.ipynb` que contiene desde la extracción de datos hasta la transformación y preselección de variables. Contiene también las explicaciones de cada paso tomado.
+- **Notebook_ejecución:** Archivo `.ipynb` que contiene la modelización e hiperparametrización de los modelos, así como, el entrenamiento de cada uno de ellos, sus predicciones y la evaluación de los modelos. Está diseñado específicamente para el entrenamiento y ejecución eficiente de modelos y la generación rápida de predicciones. Proporciona un código más compacto y orientado a la aplicación práctica.
 --- 
 
 ## Esquema de datos
-![Esquema de datos](https://prod-files-secure.s3.us-west-2.amazonaws.com/c0e5d5fd-3f6e-4f4a-a107-e858e7ea878f/esquema_datos.drawio.png)
+![Estructura de los datos](https://github.com/JavierRamirez14/forecast_ventas/blob/main/images/esquema_datos.png?raw=true)
 
 ---
 
@@ -44,13 +49,12 @@ Desarrollar un sistema de forecasting para predecir ventas de **33 familias de p
 - **RMSLE:** 0.45 (**Top 13%** en Kaggle, puesto 89/679 a día 5/03/2024)  
 - **Otras métricas:**  
   - RMSE: 295.26  
-  - MAE: 87.38  
-
-**Comparativa real vs. predicciones:**  
-![Gráfico de resultados](https://prod-files-secure.s3.us-west-2.amazonaws.com/b72612b4-de86-445f-9e73-f18665b87a31/grafica_resultados.png)
+  - MAE: 87.38
 
 ---
 
-## 📂 Estructura del Proyecto
-- **Notebook_desarrollo:** Archivo `.ipynb` que contiene desde la extracción de datos hasta la transformación y preselección de variables. Contiene también las explicaciones de cada paso tomado.
-- **Notebook_ejecución:** Archivo `.ipynb` que contiene la modelización e hiperparametrización de los modelos, así como, el entrenamiento de cada uno de ellos, sus predicciones y la evaluación de los modelos. Está diseñado específicamente para el entrenamiento y ejecución eficiente de modelos y la generación rápida de predicciones. Proporciona un código más compacto y orientado a la aplicación práctica.
+**Error por familia de producto:**  
+![Error por familia de producto](https://github.com/JavierRamirez14/forecast_ventas/blob/main/images/grafica_errores.png?raw=true)
+
+**Comparativa real vs. predicciones:**  
+![Comparativa real vs. predicciones](https://github.com/JavierRamirez14/forecast_ventas/blob/main/images/grafica_predicciones.png?raw=true)
