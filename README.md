@@ -42,8 +42,8 @@ Desarrollar un sistema de forecasting para predecir ventas de **33 familias de p
   - RMSE: 295.26  
   - MAE: 87.38
 
-**Error por familia de producto:**  
+## **Error por familia de producto:**  
 ![Error por familia de producto](https://github.com/JavierRamirez14/forecast_ventas/blob/main/grafica_errores.png?raw=true)
 
-**Comparativa real vs. predicciones:**  
+## **Comparativa real vs. predicciones:**  
 ![Comparativa real vs. predicciones](https://github.com/JavierRamirez14/forecast_ventas/blob/main/grafica_predicciones.png?raw=true)
